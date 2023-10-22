@@ -13,56 +13,56 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="24/7 HealthCare"
-        android:textColor="#fff"
+        android:text="ArogyaMaa"
+        android:textColor="#ffff"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.01" />
 
     <TextView
         android:id="@+id/textViewHATitle"
-        android:layout_width="95dp"
-        android:layout_height="42dp"
+        android:layout_width="336dp"
+        android:layout_height="36dp"
         android:layout_centerHorizontal="true"
         android:textColor="#fff777"
-        android:textSize="34sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13"
-        tools:text="FAQ'S" />
+        app:layout_constraintTop_toBottomOf="@+id/titleDDName"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="FAQ'S Related to Pregnancy" />
 
     <ListView
         android:id="@+id/listViewHA"
-        android:layout_width="350dp"
-        android:layout_height="500dp"
+        android:layout_width="402dp"
+        android:layout_height="632dp"
         android:layout_margin="10dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewHATitle"
-        app:layout_constraintVertical_bias="0.072" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewHATitle" />
 
     <Button
         android:id="@+id/buttonBMGoToCart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_width="87dp"
+        android:layout_height="44dp"
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

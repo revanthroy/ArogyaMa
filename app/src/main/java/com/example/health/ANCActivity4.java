@@ -37,7 +37,7 @@ public class ANCActivity4 extends AppCompatActivity {
         ANC1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ANCActivity4.this,HomeActivity2.class));
+                startActivity(new Intent(ANCActivity4.this,ANCM1Activity.class));
 
             }
         });
@@ -55,7 +55,7 @@ public class ANCActivity4 extends AppCompatActivity {
         ANC3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ANCActivity4.this,HomeActivity2.class));
+                startActivity(new Intent(ANCActivity4.this,ANCM2Activity.class));
             }
         });
         CardView ANC4 = findViewById(R.id.ANC4);

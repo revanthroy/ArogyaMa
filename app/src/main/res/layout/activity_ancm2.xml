@@ -1,10 +1,15 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/back7"
-    tools:context=".ANCM1Activity">
+    tools:context=".ANCM2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back7"
+        tools:context=".ANCM2Activity">
 
         <TextView
             android:id="@+id/titleHome"
@@ -15,7 +20,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginEnd="12dp"
             android:layout_marginBottom="12dp"
-            android:text="IMMUNIJECTION"
+            android:text=" Child Care "
             android:textColor="#fff"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -50,18 +55,20 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="BCG"
-                        android:textSize="40dp"
+                        android:layout_width="281dp"
+                        android:layout_height="130dp"
+                        android:text="1.IF the baby is from 500 grams to 1000 grams click on SNCV
+                                      2.IF the baby is above 2000 grams click on Back
+                                      3.IF baby is more than 2000 grams is perfect"
                         android:textAlignment="center"
                         android:textColor="@color/black"
+                        android:textSize="18dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/oneYEAR"
+                android:id="@+id/SNCV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_row="1"
@@ -82,18 +89,18 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="D P O"
-                        android:textSize="35dp"
+                        android:layout_width="94dp"
+                        android:layout_height="53dp"
+                        android:text="SNCV"
                         android:textAlignment="center"
                         android:textColor="@color/black"
+                        android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/twoYEARS"
+                android:id="@+id/Back"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_row="2"
@@ -114,14 +121,15 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="HB"
-                        android:textSize="40dp"
+                        android:layout_width="81dp"
+                        android:layout_height="49dp"
+                        android:text="Back"
                         android:textAlignment="center"
                         android:textColor="@color/black"
+                        android:textSize="20dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </GridLayout>
-</RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

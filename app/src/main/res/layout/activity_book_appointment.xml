@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back9"
+    android:background="@drawable/back5"
     tools:context=".RegisterActivity2">
 
 
@@ -154,29 +154,29 @@
 
     <TextView
         android:id="@+id/textViewLDPackageName"
-        android:layout_width="382dp"
-        android:layout_height="65dp"
+        android:layout_width="266dp"
+        android:layout_height="68dp"
         android:fontFamily="sans-serif-black"
-        android:text="24/7 Health care"
+        android:text="ArogyaMaa"
         android:textColor="#F16D6D"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintHorizontal_bias="0.579"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024" />
 
     <TextView
         android:id="@+id/textViewBMBPackageName"
-        android:layout_width="262dp"
-        android:layout_height="46dp"
+        android:layout_width="234dp"
+        android:layout_height="40dp"
         android:text="Book Appointment"
         android:textColor="#DACDCD"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewLDPackageName"
         app:layout_constraintVertical_bias="0.037" />

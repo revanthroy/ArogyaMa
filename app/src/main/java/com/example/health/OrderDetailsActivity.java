@@ -57,7 +57,6 @@ public class OrderDetailsActivity extends AppCompatActivity {
             order_details[i][2] = "Rs." +strData[6];
             order_details[i][4] = strData[2];
         }
-
         list = new ArrayList();
         for (int i = 0; i < order_details.length; i++) {
             item= new HashMap<String,String>();

@@ -4,8 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back8"
+    android:background="@drawable/back6"
     tools:context=".OrderDetailsActivity">
+
+  <Button
+      android:id="@+id/buttonBMCartBack2"
+      android:layout_width="142dp"
+      android:layout_height="56dp"
+      android:text="BACK"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.857"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.976" />
 
   <TextView
       android:id="@+id/textViewBMCartTitle"
@@ -27,7 +39,7 @@
       android:id="@+id/textView_logo3"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="24/7 HealthCare"
+      android:text="ArogyaMaa"
       android:textColor="@color/white"
       android:textSize="34sp"
       android:textStyle="bold"
@@ -39,25 +51,26 @@
 
   <ListView
       android:id="@+id/listViewBMCart"
-      android:layout_width="367dp"
-      android:layout_height="482dp"
+      android:layout_width="413dp"
+      android:layout_height="514dp"
       android:layout_marginBottom="32dp"
       app:layout_constraintBottom_toTopOf="@+id/buttonBMCartBack"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.986" />
+      app:layout_constraintVertical_bias="1.0" />
 
   <Button
       android:id="@+id/buttonBMCartBack"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="16dp"
-      android:text="BACK"
+      android:layout_width="146dp"
+      android:layout_height="53dp"
+      android:text="Submit "
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.541"
+      app:layout_constraintHorizontal_bias="0.092"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintVertical_bias="0.69"/>
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

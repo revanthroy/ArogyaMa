@@ -19,10 +19,10 @@ public class HealthArticlesActivity extends AppCompatActivity {
 
     String[][] health_details ={
             {"First one week for a month diet Plan","","","", "Click More Details"},
-            {"Approved Pregnancy Diet Chart", "","","", "Click More Details"},
-            {"Good Quotes -1 ", "", "","", "Click More Details"},
-            {"Good Quotes -2", "", "","", "Click More Details"},
-            {"Safety Measures-1 ", "", "", "", "", "Click More Details"}
+            {"What to Eat in Pregnancy ", "","","", "Click More Details"},
+            {"Advice During Pregnancy ", "", "","", "Click More Details"},
+            {"What are the  Body Changes in Pregnancy", "", "","", "Click More Details"},
+            {"what Physical activity you need to do ?", "", "", "", "", "Click More Details"}
         };
 
 private int [] images  = {

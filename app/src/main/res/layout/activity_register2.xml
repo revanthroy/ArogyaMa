@@ -116,10 +116,10 @@
 
     <TextView
         android:id="@+id/textViewLDPackageName"
-        android:layout_width="383dp"
-        android:layout_height="86dp"
+        android:layout_width="263dp"
+        android:layout_height="87dp"
         android:fontFamily="sans-serif-black"
-        android:text="24/7 Health care"
+        android:text="ArogyaMaa"
         android:textColor="@color/design_default_color_on_primary"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"

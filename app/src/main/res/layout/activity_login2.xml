@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back4"
+    android:background="@drawable/back6"
     android:paddingLeft="20dp"
     android:paddingTop="10dp"
     android:paddingRight="10dp"
@@ -70,24 +70,24 @@
 
     <TextView
         android:id="@+id/textViewLDPackageName"
-        android:layout_width="326dp"
-        android:layout_height="85dp"
+        android:layout_width="217dp"
+        android:layout_height="78dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="24/7 Health care"
+        android:text="ArogyaMaa"
         android:textColor="#F16D6D"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.128" />
+        app:layout_constraintVertical_bias="0.229" />
 
     <TextView
         android:id="@+id/textViewnewuser"
         android:layout_width="190dp"
         android:layout_height="51dp"
         android:text="Regisiter New User?"
-        android:textColor="@color/design_default_color_error"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
